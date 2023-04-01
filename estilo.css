@@ -1,0 +1,64 @@
+/*aplicar al elemento cuyo atributo sea name, o sea pepe*/
+/*
+[pepe]{
+    font-size: 40px;
+}
+*/
+
+/*
+body{
+    background-color: rgb(229, 212, 244);
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+div p{
+    color: blue;
+}
+
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+*/
+/*
+#miParrafo{
+    font-size: 40px;
+}
+
+#miParrafo2{
+    font-size: 50px;
+}
+
+.letraenana{
+    font-size: 5px !important;
+}
+
+*/
+
+
+/*Tipos de maquetado : Bloque y flex*/
+/*In line se colocan los elementos en una fila*/
+/*En flex los elemenentos pueden estar en filas o en columnas*/
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Trabajando con el cuadro de texto*/
+p{
+    margin: 15px;
+    border: 10px solid red;
+    padding: 10px;
+    display: flex;
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    body{
+        flex-direction: column;
+    }
+}
